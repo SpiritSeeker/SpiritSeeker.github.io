@@ -77,6 +77,68 @@ header {
     font-size: 0.95em;
 }
 
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.home-profile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 auto;
+}
+
+.home-profile img {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 50%;
+}
+
+.home-profile .name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.home-profile a {
+    text-decoration: none;
+}
+
+.home-profile .description a:hover {
+    background-color: rgba(0, 0, 0, .15);
+}
+
+.home-profile .description {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.link-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+}
+
+.link-section .contact-info {
+    flex-basis: 10%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.link-section img {
+    height: 40px;
+    width: 40px;
+}
+
 .research-header {
     text-align: center;
     font-size: 1.75em;
